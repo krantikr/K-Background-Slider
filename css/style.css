@@ -209,6 +209,8 @@
 	opacity: 1;
 }
 
+
+
 /*body content*/
 .content{
 	background-color: rgba(0, 0, 0, 0.8);
@@ -251,4 +253,40 @@
     font-size: 15px;
     min-height: 112px;
     padding: 10px;
+}
+.about{
+	padding: 35px 0;
+}
+.about a:hover, .about a:focus{
+	text-decoration: none;
+}
+.social social{
+	border: 1px solid;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    height: 35px;
+    margin: 10px;
+    padding-top: 1px;
+    width: 35px;
+    transition: all .2s ease-in-out;
+}
+.social social:hover{
+	transform: scale(1.2);
+}
+.social .twitter{
+	color: #00aae4;
+}
+.social .facebook{
+	color: #345a9a;
+}
+.social .skype{
+	color: #00a9f5;
+}
+.social .linkedin{
+	color: #007bb7;
+}
+.social .envelope{
+	color: #f24132;
 }
