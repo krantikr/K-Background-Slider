@@ -1,6 +1,13 @@
 .bg-fixed{
 	position: fixed
 }
+.ads{
+	overflow: hidden;
+	max-width: 100%;
+	margin: 10px auto;
+	background-color: #f9f9f9;
+	border-radius: 5px;
+}
 /*Animation--*/
 .kslideshow,
 .kslideshow:after {
